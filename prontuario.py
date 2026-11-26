@@ -1,6 +1,6 @@
 from datetime import datetime
 class Prontuario:
-    def __init__(self, numero:int, nome_animal:str, nome_tutor:str, veterinario:str, data_hora_abertura, medicamentos_utilizados, procedimentos_realizados):
+    def __init__(self, numero, nome_animal, nome_tutor, veterinario, data_hora_abertura, medicamentos_utilizados, procedimentos_realizados):
         self.numero = numero
         self.nome_animal = nome_animal
         self.nome_tutor = nome_tutor
